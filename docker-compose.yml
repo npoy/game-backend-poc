@@ -19,6 +19,6 @@ services:
     networks:
       - default
     ports:
-    - "8010:8010"
+    - "3000:3000"
 volumes:
   data:

@@ -9,5 +9,5 @@ func main() {
 		os.Getenv("POSTGRES_PASSWORD"),
 		os.Getenv("POSTGRES_DB"))
 
-	a.Run(":8010")
+	a.Run(":3000")
 }
